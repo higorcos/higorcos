@@ -6,7 +6,7 @@ export default function Projects() {
       title: "Câmara de Manoel Emídio-PI",
       description: "portal da transparência",
       image:
-        "/images/MockupManoel.png",
+        "https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupManoel.png",
       link: "https://manoelemidio.pi.leg.br/",
       colSpan: "col-span-1",
     },
@@ -14,7 +14,7 @@ export default function Projects() {
       title: "Prefeitura de Raposa-MA",
       description: "portal da transparência",
       image:
-        "/images/MockupRaposa.png",
+        "https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupRaposa.png",
       link: "http://raposa.ma.gov.br/",
       colSpan: "col-span-1 md:col-span-2",
     },
