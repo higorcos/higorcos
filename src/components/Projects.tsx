@@ -5,18 +5,18 @@ export default function Projects() {
     {
       title: "Câmara de Manoel Emídio-PI",
       description: "portal da transparência",
-      image:
-        "https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupManoel.png",
+      image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupManoel.png",
+      //image: "/images/MockupManoel.png",
       link: "https://manoelemidio.pi.leg.br/",
-      colSpan: "col-span-1",
+      colSpan: "col-span-2 md:col-span-3",
     },
     {
       title: "Prefeitura de Raposa-MA",
       description: "portal da transparência",
-      image:
-        "https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupRaposa.png",
+      image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupRaposa.png",
+      // image: "/images/MockupRaposa.png",
       link: "http://raposa.ma.gov.br/",
-      colSpan: "col-span-1 md:col-span-2",
+      colSpan: "col-span-3 md:col-span-3",
     },
     // {
     //   title: "Projeto 3",
@@ -28,11 +28,11 @@ export default function Projects() {
     // },
     {
       title: "API dos portais (node.js)",
-      description: "Controla as informações dos portais",
+      description: "Controla as informações dos portais - Projeto Privado",
       image:
         "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       link: "#",
-      colSpan: "col-span-1",
+      colSpan: "col-span-3 md:col-span-3",
     },
     // {
     //   title: "Projeto 5",
@@ -69,7 +69,10 @@ export default function Projects() {
                 className={`group relative h-52 cursor-default rounded-lg ${project.colSpan} bg-cover bg-center`}
                 style={{ backgroundImage: `url('${project.image}')` }}
               >
-                <div className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 text-white opacity-0 transition-opacity group-hover:opacity-100">
+                <a 
+                href={project.link} target="_blank"
+                className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 text-white opacity-0 transition-opacity group-hover:opacity-100">
+
                   <h4 className="font-headline text-lg font-semibold">
                     {project.title}
                   </h4>
@@ -77,7 +80,7 @@ export default function Projects() {
                   <a href={project.link} target="_blank">
                     <HiArrowTopRightOnSquare className="h-6 w-6" />
                   </a>
-                </div>
+                </a>
               </div>
             ))}
           </div>
