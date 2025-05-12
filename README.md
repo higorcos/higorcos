@@ -1,6 +1,9 @@
-## Oiii, Sou o Higor!
+![image](https://github.com/user-attachments/assets/a5bda001-f0b2-4a48-b7cf-f0431f0b0d79)## Fala Dev, sou o Higor Costa!
  <div>
- Graduando em Bacharelado Interdisciplinar em Ciências e suas Tecnologias (BICT) pelo Centro de Ciências Exatas e Tecnologia (CCET) da Universidade Federal do Maranhão (UFMA). Premiado na Etapa Estadual da Olimpíada Brasileira de Robótica (OBR) em janeiro de 2024. Já atuou como monitor em projetos de introdução à robótica. Atualmente é desenvolvedor freelancer, com experiência na criação de layouts e no desenvolvimento de sites responsivos, incluindo plataformas de vendas. Além de habilidades no levantamento de requisitos, análise e documentação técnica para o desenvolvimento e implementação de sistemas. Possuí como áreas de interesse o desenvolvimento web, robótica, automação e a criação de soluções tecnológicas personalizadas.
+🎓 Graduado no Bacharelado Interdisciplinar em Ciência e Tecnologia pela UFMA e atualmente cursando Engenharia da Computação, também na UFMA.
+💻 Atuo há mais de 2 anos como desenvolvedor full stack, com foco em JavaScript, Node.js e tecnologias modernas de desenvolvimento web.
+🚀 Tenho interesse contínuo em resolver problemas complexos com código limpo, aprender novas ferramentas e contribuir com projetos desafiadores.
+📈 Busco oportunidades que me permitam aplicar minha experiência, crescer profissionalmente e gerar impacto real por meio da tecnologia.
 
 
 ## ⭐ GitHub Stats
