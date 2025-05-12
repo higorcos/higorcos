@@ -1,9 +1,9 @@
 ## Fala Dev, sou o Higor Costa!
  <div>
 🎓 Graduado no Bacharelado Interdisciplinar em Ciência e Tecnologia pela UFMA e atualmente cursando Engenharia da Computação, também na UFMA.</br>
-💻 Atuo há mais de 2 anos como desenvolvedor full stack, com foco em JavaScript, Node.js e tecnologias modernas de desenvolvimento web.
-🚀 Tenho interesse contínuo em resolver problemas complexos com código limpo, aprender novas ferramentas e contribuir com projetos desafiadores.
-📈 Busco oportunidades que me permitam aplicar minha experiência, crescer profissionalmente e gerar impacto real por meio da tecnologia.
+💻 Atuo há mais de 2 anos como desenvolvedor full stack, com foco em JavaScript, Node.js e tecnologias modernas de desenvolvimento web.</br>
+🚀 Tenho interesse contínuo em resolver problemas complexos com código limpo, aprender novas ferramentas e contribuir com projetos desafiadores.</br>
+📈 Busco oportunidades que me permitam aplicar minha experiência, crescer profissionalmente e gerar impacto real por meio da tecnologia.</br>
 </div>
 
 
