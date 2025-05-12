@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a5bda001-f0b2-4a48-b7cf-f0431f0b0d79)## Fala Dev, sou o Higor Costa!
+## Fala Dev, sou o Higor Costa!
  <div>
 🎓 Graduado no Bacharelado Interdisciplinar em Ciência e Tecnologia pela UFMA e atualmente cursando Engenharia da Computação, também na UFMA.
 💻 Atuo há mais de 2 anos como desenvolvedor full stack, com foco em JavaScript, Node.js e tecnologias modernas de desenvolvimento web.
