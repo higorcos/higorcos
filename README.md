@@ -8,6 +8,9 @@ Ao longo da minha trajetória, participei de projetos acadêmicos e profissionai
 
 Tenho grande interesse em **arquitetura de software**, **APIs bem estruturadas**, **aplicações web responsivas** e boas práticas de desenvolvimento. Valorizo ambientes colaborativos, metodologias ágeis e o aprendizado contínuo como base para entregar valor real por meio da tecnologia.
 
+
+
+
 ---
 
 ## 🚀 Tecnologias e Ferramentas
