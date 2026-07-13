@@ -10,6 +10,9 @@ Tenho grande interesse em **arquitetura de software**, **APIs bem estruturadas**
 
 
 
+   
+
+
 
 ---
 
