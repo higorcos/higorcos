@@ -72,8 +72,8 @@ export default function Contact() {
 
   return (
     <section id="contact" className="bg-blue-700 text-white">
-      <div className="container mx-auto max-w-4xl p-4 py-8">
-        <div className="mb-6">
+      <div className="container mx-auto max-w-4xl px-4 py-20">
+        <div className="mb-10">
           <h2 className="z-50 mb-2">
             <span className="mr-2 font-headline text-3xl font-semibold">
               Fale

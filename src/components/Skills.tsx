@@ -130,10 +130,10 @@ export default function Skills() {
   ]
 
   return (
-    <section className="rounded-br-[80px] bg-gray-300 md:rounded-br-[180px]">
-      <div className="container mx-auto max-w-4xl p-4 py-12">
-        <div className="relative mb-4 p-4 text-center">
-          <h2 className="relative z-50 mb-2 font-bold">
+    <section className="bg-gray-100">
+      <div className="container mx-auto max-w-4xl px-4 py-20">
+        <div className="mb-12 text-center">
+          <h2 className="mb-2 font-bold">
             <span className="mr-2 font-headline text-3xl text-gray-800">
               Educação &
             </span>
@@ -141,13 +141,10 @@ export default function Skills() {
               Skills
             </span>
           </h2>
-          <p className="relative text-sm text-gray-700">
-            FullStack Developer 
-          </p>
-          <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
+          <p className="text-sm text-gray-700">FullStack Developer</p>
         </div>
 
-        <div className="flex flex-col gap-8 md:flex-row">
+        <div className="flex flex-col gap-10 md:flex-row">
           <div className="basis-1/2">
             <h3 className="mb-4 flex items-center gap-2 text-lg font-extrabold text-gray-700">
               <HiAcademicCap className="h-8 w-8 text-blue-600" />
@@ -169,22 +166,14 @@ export default function Skills() {
               Skills
             </h3>
 
-            <div className="grid grid-cols-1 gap-4 font-semibold md:grid-cols-4">
+            <div className="grid grid-cols-4 gap-3">
               {skills.map((skill, index) => (
                 <div
                   key={`skill-${index}`}
-                  className="flex flex-row items-center gap-2 md:flex-col md:items-start"
-                >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-white p-2"
                   title={skill.name}
-                  >
-                    {/* <img
-                      alt={skill.name}
-                      className="h-10 w-10 rounded"
-                      /> */}
-                      {skill.icon}
-                  </div>
-                 
+                  className="flex aspect-square items-center justify-center rounded-lg bg-white p-2 shadow-sm"
+                >
+                  {skill.icon}
                 </div>
               ))}
             </div>
