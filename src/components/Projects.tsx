@@ -1,47 +1,69 @@
-import { HiArrowTopRightOnSquare } from "react-icons/hi2"
+import { HiArrowTopRightOnSquare, HiLockClosed } from "react-icons/hi2"
 
 export default function Projects() {
   const projects = [
     {
       title: "Câmara de Manoel Emídio-PI",
-      description: "portal da transparência",
+      description: "Portal da transparência",
       image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupManoel.png",
       //image: "/images/MockupManoel.png",
       link: "https://manoelemidio.pi.leg.br/",
-      colSpan: "col-span-2 md:col-span-3",
+      colSpan: "col-span-3 md:col-span-3",
+      private: false,
     },
     {
       title: "Prefeitura de Raposa-MA",
-      description: "portal da transparência",
+      description: "Portal da transparência",
       image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupRaposa.png",
       // image: "/images/MockupRaposa.png",
       link: "http://raposa.ma.gov.br/",
       colSpan: "col-span-3 md:col-span-3",
+      private: false,
     },
-    // {
-    //   title: "Projeto 3",
-    //   description: "Descrição do projeto 3",
-    //   image:
-    //     "https://media.istockphoto.com/id/1305995602/photo/responsive-floating-responsive-design.jpg?b=1&s=170667a&w=0&k=20&c=uFqBz27v_B0UxcslnvZxd9c0D9eJAef7veRZf6b-v-A=",
-    //   link: "#",
-    //   colSpan: "col-span-1",
-    // },
     {
-      title: "API dos portais (node.js)",
-      description: "Controla as informações dos portais - Projeto Privado",
-      image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
-      colSpan: "col-span-3 md:col-span-3",
+      title: "Maranhão Livre da Fome",
+      description:
+        "Sistema de acompanhamento do programa estadual de combate à insegurança alimentar - controla consultas e fichas nutricionais das famílias participantes",
+      image: "/images/MockupMaranhaoLivreDaFome.png",
+      link: "https://maranhaolivredafome.saude.ma.gov.br/",
+      colSpan: "col-span-3 md:col-span-1",
+      private: false,
     },
-    // {
-    //   title: "Projeto 5",
-    //   description: "Descrição do projeto 5",
-    //   image:
-    //     "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-    //   link: "#",
-    //   colSpan: "col-span-1",
-    // },
+    {
+      title: "Isabella da Hora",
+      description: "Landing page pessoal, minimalista",
+      image: "/images/MockupIsabella.png",
+      link: "https://isabelladahora.kerodon.dev.br/",
+      colSpan: "col-span-3 md:col-span-1",
+      private: false,
+    },
+    {
+      title: "Corrida de Tora dos Krikati",
+      description:
+        "Site documental sobre a tradição da Corrida de Tora dos povos indígenas Krikati no Maranhão",
+      image: "/images/MockupCorridaTora.png",
+      link: "https://higorcos.github.io/corrida-de-tora-krikati/",
+      colSpan: "col-span-3 md:col-span-1",
+      private: false,
+    },
+    {
+      title: "RELAB",
+      description:
+        "Sistema de mapeamento da rede laboratorial do Maranhão - rastreia e credencia unidades pela capacidade de exames que realizam - Projeto Interno",
+      image: "",
+      link: "",
+      colSpan: "col-span-3 md:col-span-1",
+      private: true,
+    },
+    {
+      title: "API dos portais (Node.js)",
+      description:
+        "API REST com load balancing e infraestrutura na AWS que sustenta os portais de transparência replicados em várias prefeituras e câmaras - Projeto Interno",
+      image: "",
+      link: "",
+      colSpan: "col-span-3 md:col-span-1",
+      private: true,
+    },
   ]
 
   return (
@@ -56,33 +78,54 @@ export default function Projects() {
               <span className="font-handwriting text-4xl">Portfólio</span>
             </h2>
             <p className="relative text-sm text-gray-400">
-              Alguns dos projetos pessoais e que já realizei ao longo da minha
-              trajetória como programador fullStack.
+              Alguns dos projetos pessoais e profissionais que já realizei ao
+              longo da minha trajetória como programador fullStack. Os portais
+              de transparência abaixo fazem parte de uma plataforma própria,
+              desenvolvida do zero e replicada para várias prefeituras e
+              câmaras municipais.
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-            {projects.map((project, index) => (
-              <div
-                key={index}
-                className={`group relative h-52 cursor-default rounded-lg ${project.colSpan} bg-cover bg-center`}
-                style={{ backgroundImage: `url('${project.image}')` }}
-              >
-                <a 
-                href={project.link} target="_blank"
-                className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 text-white opacity-0 transition-opacity group-hover:opacity-100">
-
+            {projects.map((project, index) =>
+              project.private ? (
+                <div
+                  key={index}
+                  className={`relative flex h-52 flex-col items-center justify-center rounded-lg bg-gradient-to-br from-blue-800 to-gray-900 p-4 text-center ${project.colSpan}`}
+                >
+                  <span className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-black/30 px-2 py-1 text-[10px] uppercase tracking-wide text-gray-300">
+                    <HiLockClosed className="h-3 w-3" />
+                    Privado
+                  </span>
                   <h4 className="font-headline text-lg font-semibold">
                     {project.title}
                   </h4>
-                  <p className=" mb-4 text-sm">{project.description}</p>
-                  <a href={project.link} target="_blank">
+                  <p className="mt-2 text-sm text-gray-300">
+                    {project.description}
+                  </p>
+                </div>
+              ) : (
+                <div
+                  key={index}
+                  className={`group relative h-52 cursor-default rounded-lg ${project.colSpan} bg-cover bg-center`}
+                  style={{ backgroundImage: `url('${project.image}')` }}
+                >
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600/90 p-4 text-center text-white opacity-0 transition-opacity group-hover:opacity-100"
+                  >
+                    <h4 className="font-headline text-lg font-semibold">
+                      {project.title}
+                    </h4>
+                    <p className="mb-4 text-sm">{project.description}</p>
                     <HiArrowTopRightOnSquare className="h-6 w-6" />
                   </a>
-                </a>
-              </div>
-            ))}
+                </div>
+              )
+            )}
           </div>
         </div>
       </section>

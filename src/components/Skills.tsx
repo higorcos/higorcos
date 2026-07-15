@@ -7,7 +7,11 @@ import { SiJavascript,
   SiReact,
   SiVuedotjs,
   SiNodedotjs,
+  SiPhp,
+  SiLaravel,
   SiMysql,
+  SiPostgresql,
+  SiDocker,
   SiAmazonaws,
   SiNginx,
   SiPython,
@@ -19,7 +23,10 @@ import { SiJavascript,
 export default function Skills() {
   const educations = [
     {
-      name: "Interdisciplinar em ciências e suas tecnologias - BICT | UFMA |Em andamento",
+      name: "Bacharelado Interdisciplinar em Ciência e Tecnologia - BICT | UFMA | Concluído",
+    },
+    {
+      name: "Engenharia da Computação | UFMA | Em andamento",
     },
     {
       name: "Curso de Desenvolvimento Node.js | Guia do Programador",
@@ -74,10 +81,30 @@ export default function Skills() {
       level: 65,
     },
     {
+      name: "PHP",
+      icon: <SiPhp className="h-12 w-12"/>,
+      level: 70,
+    },
+    {
+      name: "Laravel",
+      icon: <SiLaravel className="h-12 w-12"/>,
+      level: 70,
+    },
+    {
       name: "Mysql",
       icon: <SiMysql className="h-12 w-12"/>,
 
       level: 65,
+    },
+    {
+      name: "PostgreSQL",
+      icon: <SiPostgresql className="h-12 w-12"/>,
+      level: 65,
+    },
+    {
+      name: "Docker",
+      icon: <SiDocker className="h-12 w-12"/>,
+      level: 60,
     },
     // {
     //   name: "Firebird",

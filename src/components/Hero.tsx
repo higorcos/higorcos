@@ -1,4 +1,4 @@
-import { HiDownload } from "react-icons/hi"
+import { AiOutlineLinkedin } from "react-icons/ai"
 
 export default function Hero() {
   return (
@@ -38,17 +38,24 @@ export default function Hero() {
               </a>
               <span className="italic text-gray-500">ou</span>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/higor--costa"
                 target="_blank"
+                rel="noreferrer"
                 className="button flex items-center gap-2 text-gray-600 hover:text-gray-900"
               >
-                <HiDownload />
-                Baixe meu CV
+                <AiOutlineLinkedin />
+                Meu LinkedIn
               </a>
             </div>
           </div>
 
-          <div className="basis-1/2"></div>
+          <div className="flex basis-1/2 items-center justify-center">
+            <img
+              src="https://github.com/higorcos.png"
+              alt="Foto de Higor Costa"
+              className="h-40 w-40 rounded-full border-4 border-blue-700 object-cover md:h-64 md:w-64"
+            />
+          </div>
         </div>
       </section>
       <div className="absolute left-0 -mt-2 h-3 w-1/4 rounded-r-full bg-gradient-to-r from-blue-700 to-blue-600 md:w-1/3" />
