@@ -23,40 +23,16 @@ import { SiJavascript,
 export default function Skills() {
   const educations = [
     {
-      name: "Bacharelado Interdisciplinar em Ciência e Tecnologia - BICT | UFMA | Concluído",
-    },
-    {
       name: "Engenharia da Computação | UFMA | Em andamento",
     },
     {
-      name: "Curso de Desenvolvimento Node.js | Guia do Programador",
+      name: "Bacharelado Interdisciplinar em Ciência e Tecnologia - BICT | UFMA | Concluído",
     },
-    {
-      name: "Curso de Javascript | Curso em vídeo",
-    },
-    {
-      name: "Curso de React | Matheus Fraga",
-    },
+   
   ]
 
   const skills = [
-    {
-      name: "HTML",
-      icon: <SiHtml5 className="h-12 w-12"/>,
-
-      level: 95,
-    },
-    {
-      name: "CSS",
-      icon: <SiCss3 className="h-12 w-12"/>,
-
-      level: 95,
-    },
-    {
-      name: "JavaScript",
-      icon: <SiJavascript className="h-12 w-12"/>,
-      level: 90,
-    },
+  
     {
       name: "TypeScript",
       icon: <SiTypescript className="h-12 w-12"/>,
@@ -69,11 +45,7 @@ export default function Skills() {
 
       level: 85,
     },
-    {
-      name: "Vue.js",
-      icon: <SiVuedotjs className="h-12 w-12"/>,
-      level: 85,
-    },
+   
     {
       name: "Node.js",
       icon: <SiNodedotjs className="h-12 w-12"/>,
@@ -89,6 +61,11 @@ export default function Skills() {
       name: "Laravel",
       icon: <SiLaravel className="h-12 w-12"/>,
       level: 70,
+    },
+     {
+      name: "Python",
+      icon: <SiPython className="h-12 w-12"/>,
+      level: 65,
     },
     {
       name: "Mysql",
@@ -122,11 +99,7 @@ export default function Skills() {
       icon: <SiNginx className="h-12 w-12"/>,
       level: 65,
     },
-    {
-      name: "Python",
-      icon: <SiPython className="h-12 w-12"/>,
-      level: 65,
-    },
+   
   ]
 
   return (

@@ -12,13 +12,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 sm:flex-row sm:items-start">
-        <img
-          src="https://github.com/higorcos.png"
-          alt="Foto de Higor Costa"
-          className="h-40 w-40 shrink-0 rounded-lg object-cover shadow-md"
-        />
-
+      <div className="mx-auto max-w-md">
         <div className="w-full rounded-lg bg-gray-50 p-6 shadow-sm">
           <p className="font-handwriting text-lg font-bold">Olá,</p>
           <p>

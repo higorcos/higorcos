@@ -13,18 +13,24 @@ export default function Projects() {
     {
       title: "Câmara de Manoel Emídio-PI",
       description: "Portal da transparência",
-      image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupManoel.png",
-      //image: "/images/MockupManoel.png",
+      image: "/images/MockupManoel.png",
       link: "https://manoelemidio.pi.leg.br/",
       private: false,
     },
     {
       title: "Prefeitura de Raposa-MA",
       description: "Portal da transparência",
-      image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupRaposa.png",
-      // image: "/images/MockupRaposa.png",
+      image: "/images/MockupRaposa.png",
       link: "http://raposa.ma.gov.br/",
       private: false,
+    },
+       {
+      title: "API dos portais (Node.js)",
+      description:
+        "API REST com load balancing e infraestrutura na AWS que sustenta os portais de transparência replicados em várias prefeituras e câmaras - Projeto Interno",
+      image: "",
+      link: "",
+      private: true,
     },
     {
       title: "Kerodon",
@@ -35,12 +41,29 @@ export default function Projects() {
       private: false,
     },
     {
+      title: "Xfera Tech",
+      description:
+        "Software house: plataformas SaaS e sistemas sob medida, incluindo uma Plataforma EaD corporativa (AVA com Moodle e app mobile)",
+      image: "/images/xfera.png",
+      link: "https://xferatech.com",
+      private: false,
+    },
+    
+    {
       title: "Maranhão Livre da Fome",
       description:
         "Sistema de acompanhamento do programa estadual de combate à insegurança alimentar - controla consultas e fichas nutricionais das famílias participantes",
       image: "/images/MockupMaranhaoLivreDaFome.png",
       link: "https://maranhaolivredafome.saude.ma.gov.br/",
       private: false,
+    },
+    {
+      title: "RELAB",
+      description:
+        "Sistema de mapeamento da rede laboratorial do Maranhão - rastreia e credencia unidades pela capacidade de exames que realizam - Projeto Interno",
+      image: "",
+      link: "",
+      private: true,
     },
     {
       title: "Isabella da Hora",
@@ -57,22 +80,8 @@ export default function Projects() {
       link: "https://higorcos.github.io/corrida-de-tora-krikati/",
       private: false,
     },
-    {
-      title: "RELAB",
-      description:
-        "Sistema de mapeamento da rede laboratorial do Maranhão - rastreia e credencia unidades pela capacidade de exames que realizam - Projeto Interno",
-      image: "",
-      link: "",
-      private: true,
-    },
-    {
-      title: "API dos portais (Node.js)",
-      description:
-        "API REST com load balancing e infraestrutura na AWS que sustenta os portais de transparência replicados em várias prefeituras e câmaras - Projeto Interno",
-      image: "",
-      link: "",
-      private: true,
-    },
+    
+ 
   ]
 
   return (
