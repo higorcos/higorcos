@@ -1,11 +1,8 @@
 import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
 
-import { SiJavascript,
-  SiCss3,
-  SiHtml5,
+import { 
   SiTypescript,
   SiReact,
-  SiVuedotjs,
   SiNodedotjs,
   SiPhp,
   SiLaravel,
