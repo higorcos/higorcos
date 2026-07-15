@@ -1,14 +1,21 @@
 import { HiArrowTopRightOnSquare, HiLockClosed } from "react-icons/hi2"
 
+type Project = {
+  title: string
+  description: string
+  image: string
+  link: string
+  private: boolean
+}
+
 export default function Projects() {
-  const projects = [
+  const projects: Project[] = [
     {
       title: "Câmara de Manoel Emídio-PI",
       description: "Portal da transparência",
       image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupManoel.png",
       //image: "/images/MockupManoel.png",
       link: "https://manoelemidio.pi.leg.br/",
-      colSpan: "col-span-3 md:col-span-3",
       private: false,
     },
     {
@@ -17,7 +24,14 @@ export default function Projects() {
       image:"https://raw.githubusercontent.com/higorcos/higorcos/main/public/images/MockupRaposa.png",
       // image: "/images/MockupRaposa.png",
       link: "http://raposa.ma.gov.br/",
-      colSpan: "col-span-3 md:col-span-3",
+      private: false,
+    },
+    {
+      title: "Kerodon",
+      description:
+        "Minha empresa de desenvolvimento de sistemas web, automações e criação de sites sob medida",
+      image: "/images/MockupKerodon.png",
+      link: "https://kerodon.dev.br/",
       private: false,
     },
     {
@@ -26,7 +40,6 @@ export default function Projects() {
         "Sistema de acompanhamento do programa estadual de combate à insegurança alimentar - controla consultas e fichas nutricionais das famílias participantes",
       image: "/images/MockupMaranhaoLivreDaFome.png",
       link: "https://maranhaolivredafome.saude.ma.gov.br/",
-      colSpan: "col-span-3 md:col-span-1",
       private: false,
     },
     {
@@ -34,7 +47,6 @@ export default function Projects() {
       description: "Landing page pessoal, minimalista",
       image: "/images/MockupIsabella.png",
       link: "https://isabelladahora.kerodon.dev.br/",
-      colSpan: "col-span-3 md:col-span-1",
       private: false,
     },
     {
@@ -43,7 +55,6 @@ export default function Projects() {
         "Site documental sobre a tradição da Corrida de Tora dos povos indígenas Krikati no Maranhão",
       image: "/images/MockupCorridaTora.png",
       link: "https://higorcos.github.io/corrida-de-tora-krikati/",
-      colSpan: "col-span-3 md:col-span-1",
       private: false,
     },
     {
@@ -52,7 +63,6 @@ export default function Projects() {
         "Sistema de mapeamento da rede laboratorial do Maranhão - rastreia e credencia unidades pela capacidade de exames que realizam - Projeto Interno",
       image: "",
       link: "",
-      colSpan: "col-span-3 md:col-span-1",
       private: true,
     },
     {
@@ -61,7 +71,6 @@ export default function Projects() {
         "API REST com load balancing e infraestrutura na AWS que sustenta os portais de transparência replicados em várias prefeituras e câmaras - Projeto Interno",
       image: "",
       link: "",
-      colSpan: "col-span-3 md:col-span-1",
       private: true,
     },
   ]
@@ -87,45 +96,64 @@ export default function Projects() {
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>
 
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-            {projects.map((project, index) =>
-              project.private ? (
-                <div
-                  key={index}
-                  className={`relative flex h-52 flex-col items-center justify-center rounded-lg bg-gradient-to-br from-blue-800 to-gray-900 p-4 text-center ${project.colSpan}`}
-                >
-                  <span className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-black/30 px-2 py-1 text-[10px] uppercase tracking-wide text-gray-300">
-                    <HiLockClosed className="h-3 w-3" />
-                    Privado
-                  </span>
-                  <h4 className="font-headline text-lg font-semibold">
-                    {project.title}
-                  </h4>
-                  <p className="mt-2 text-sm text-gray-300">
-                    {project.description}
-                  </p>
-                </div>
-              ) : (
-                <div
-                  key={index}
-                  className={`group relative h-52 cursor-default rounded-lg ${project.colSpan} bg-cover bg-center`}
-                  style={{ backgroundImage: `url('${project.image}')` }}
-                >
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600/90 p-4 text-center text-white opacity-0 transition-opacity group-hover:opacity-100"
-                  >
-                    <h4 className="font-headline text-lg font-semibold">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            {projects.map((project, index) => {
+              const content = (
+                <>
+                  <div
+                    className={`absolute inset-0 ${
+                      project.private
+                        ? "bg-gradient-to-br from-blue-800 to-gray-900"
+                        : "bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                    }`}
+                    style={
+                      !project.private
+                        ? { backgroundImage: `url('${project.image}')` }
+                        : undefined
+                    }
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
+
+                  {project.private && (
+                    <span className="absolute right-3 top-3 z-10 flex items-center gap-1 rounded-full bg-black/40 px-2 py-1 text-[10px] uppercase tracking-wide text-gray-200">
+                      <HiLockClosed className="h-3 w-3" />
+                      Privado
+                    </span>
+                  )}
+                  {!project.private && (
+                    <HiArrowTopRightOnSquare className="absolute right-3 top-3 z-10 h-5 w-5 text-white/70 transition-colors group-hover:text-white" />
+                  )}
+
+                  <div className="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4">
+                    <h4 className="font-headline text-lg font-semibold text-white">
                       {project.title}
                     </h4>
-                    <p className="mb-4 text-sm">{project.description}</p>
-                    <HiArrowTopRightOnSquare className="h-6 w-6" />
-                  </a>
-                </div>
+                    <p className="mt-1 text-xs leading-snug text-gray-200">
+                      {project.description}
+                    </p>
+                  </div>
+                </>
               )
-            )}
+
+              return project.private ? (
+                <div
+                  key={index}
+                  className="group relative h-52 overflow-hidden rounded-lg shadow-lg"
+                >
+                  {content}
+                </div>
+              ) : (
+                <a
+                  key={index}
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group relative block h-52 overflow-hidden rounded-lg shadow-lg"
+                >
+                  {content}
+                </a>
+              )
+            })}
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser"
 import { FormEvent, useRef, useState } from "react"
-import { FaSpinner, FaWhatsapp } from "react-icons/fa"
+import { FaSpinner } from "react-icons/fa"
 import {
   HiCheckCircle,
   HiOutlineEnvelope,
@@ -46,12 +46,6 @@ export default function Contact() {
 
   const contacts = [
     {
-      name: "WhatsApp",
-      description: "+55 98 99119-0311",
-      link: "https://wa.me/5598991190311?text=Olá, vim pelo seu portfólio",
-      icon: <FaWhatsapp className="h-10 w-10" />,
-    },
-    {
       name: "Email",
       description: "higorpinheirocosta@gmail.com",
       link: "mailto:higorpinheirocosta@gmail.com?subject=Olá...",
@@ -87,8 +81,8 @@ export default function Contact() {
             <span className="font-handwriting text-4xl">Comigo</span>
           </h2>
           <p className="text-sm">
-            Entre em contato por formulário ou WhatsApp, com certeza irei poder
-            te ajudar.
+            Entre em contato por formulário ou pelos canais abaixo, com
+            certeza irei poder te ajudar.
           </p>
         </div>
 

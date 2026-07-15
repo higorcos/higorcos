@@ -34,19 +34,6 @@ export default function About() {
                 </tr>
                 <tr>
                   <td className="font-headline font-bold uppercase text-blue-900">
-                    Celular:
-                  </td>
-                  <td>
-                    <a
-                     href="#contact"
-                      className="underline hover:text-blue-800"
-                    >
-                      +55 98 99119-0311
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="font-headline font-bold uppercase text-blue-900">
                     Email:
                   </td>
                   <td>
