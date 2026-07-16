@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #0a1d33;
+}
+
 @layer components {
   .button {
     @apply cursor-pointer rounded-md bg-white px-4 py-2 font-headline text-sm font-semibold transition;

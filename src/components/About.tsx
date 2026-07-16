@@ -1,62 +1,41 @@
 export default function About() {
   return (
-    <section className="container mx-auto max-w-5xl px-4 py-20">
-      <div className="mb-12 text-center">
-        <h2 className="mb-2 font-bold text-blue-900">
-          <span className="mr-2 font-headline text-3xl">Sobre</span>
-          <span className="font-handwriting text-4xl">Mim</span>
+    <section className="bg-brand-950 px-4 py-20 text-brand-100">
+      <div className="container mx-auto max-w-3xl text-center">
+        <h2 className="mb-8 font-bold">
+          <span className="mr-2 font-headline text-3xl text-white">Sobre</span>
+          <span className="font-handwriting text-4xl text-brand-400">Mim</span>
         </h2>
-        <p className="text-sm text-gray-600">
-          Tenho alguns projetos executados e gostaria que o próximo seja o
-          seu.
+
+        <p className="mx-auto max-w-2xl leading-relaxed text-brand-100/70">
+          Sou desenvolvedor FullStack, formado em Ciência e Tecnologia pela
+          UFMA e atualmente cursando Engenharia da Computação na mesma
+          instituição. Tenho mais de dois anos de experiência construindo
+          sistemas web, APIs e portais para o setor público e para empresas,
+          sempre com foco em performance, qualidade de código e boa
+          experiência do usuário.
         </p>
-      </div>
 
-      <div className="mx-auto max-w-md">
-        <div className="w-full rounded-lg bg-gray-50 p-6 shadow-sm">
-          <p className="font-handwriting text-lg font-bold">Olá,</p>
-          <p>
-            <span className="mr-1">Meu nome é</span>
-            <span className="font-headline font-bold uppercase text-blue-900">
-              Higor Costa
+        <div className="mx-auto mt-10 flex max-w-2xl flex-wrap items-center justify-center gap-3 text-sm">
+          <a
+            href="#contact"
+            className="rounded-full border border-brand-400/30 bg-brand-800/30 px-4 py-2 text-brand-100 transition hover:border-brand-400"
+          >
+            higorpinheirocosta@gmail.com
+          </a>
+          <a
+            href="#contact"
+            className="rounded-full border border-brand-400/30 bg-brand-800/30 px-4 py-2 text-brand-100 transition hover:border-brand-400"
+          >
+            São Luís do Maranhão
+          </a>
+          <span className="flex items-center gap-2 rounded-full border border-brand-400/30 bg-brand-800/30 px-4 py-2 text-brand-100">
+            <span className="relative flex h-2.5 w-2.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-200 opacity-75"></span>
+              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-brand-200"></span>
             </span>
-          </p>
-
-          <table className="mt-4 w-full text-xs">
-            <tbody>
-              <tr>
-                <td className="py-1 pr-2 font-headline font-bold uppercase text-blue-900">
-                  Email:
-                </td>
-                <td className="py-1">
-                  <a href="#contact" className="underline hover:text-blue-800">
-                    higorpinheirocosta@gmail.com
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td className="py-1 pr-2 font-headline font-bold uppercase text-blue-900">
-                  Endereço:
-                </td>
-                <td className="py-1">
-                  <a href="#contact" className="underline hover:text-blue-800">
-                    São Luís do Maranhão
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td className="py-1 pr-2 font-headline font-bold uppercase text-blue-900">
-                  Disponível:
-                </td>
-                <td className="py-1">
-                  <span className="relative flex h-3 w-3">
-                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                    <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
-                  </span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            Disponível para novos projetos
+          </span>
         </div>
       </div>
     </section>

@@ -85,16 +85,18 @@ export default function Projects() {
   ]
 
   return (
-    <section className="border-b border-white/10 bg-gradient-to-tr from-black to-gray-900 text-white">
+    <section className="bg-brand-950 text-brand-100">
       <div className="container mx-auto max-w-4xl px-4 py-20">
         <div className="mb-12 text-center">
           <h2 className="mb-2 text-white">
             <span className="mr-2 font-headline text-3xl font-semibold">
               Projetos &
             </span>
-            <span className="font-handwriting text-4xl">Portfólio</span>
+            <span className="font-handwriting text-4xl text-brand-400">
+              Portfólio
+            </span>
           </h2>
-          <p className="mx-auto max-w-2xl text-sm text-gray-400">
+          <p className="mx-auto max-w-2xl text-sm text-brand-100/70">
             Alguns dos projetos pessoais e profissionais que já realizei ao
             longo da minha trajetória como programador fullStack. Os portais
             de transparência abaixo fazem parte de uma plataforma própria,
@@ -110,7 +112,7 @@ export default function Projects() {
                   <div
                     className={`absolute inset-0 ${
                       project.private
-                        ? "bg-gradient-to-br from-blue-800 to-gray-900"
+                        ? "bg-gradient-to-br from-brand-800 to-brand-950"
                         : "bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
                     }`}
                     style={
@@ -119,23 +121,23 @@ export default function Projects() {
                         : undefined
                     }
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-950/95 via-brand-950/50 to-brand-950/10" />
 
                   {project.private && (
-                    <span className="absolute right-3 top-3 z-10 flex items-center gap-1 rounded-full bg-black/40 px-2 py-1 text-[10px] uppercase tracking-wide text-gray-200">
+                    <span className="absolute right-3 top-3 z-10 flex items-center gap-1 rounded-full bg-brand-950/60 px-2 py-1 text-[10px] uppercase tracking-wide text-brand-100">
                       <HiLockClosed className="h-3 w-3" />
                       Privado
                     </span>
                   )}
                   {!project.private && (
-                    <HiArrowTopRightOnSquare className="absolute right-3 top-3 z-10 h-5 w-5 text-white/70 transition-colors group-hover:text-white" />
+                    <HiArrowTopRightOnSquare className="absolute right-3 top-3 z-10 h-5 w-5 text-brand-100/70 transition-colors group-hover:text-brand-200" />
                   )}
 
                   <div className="absolute inset-x-0 bottom-0 flex flex-col justify-end p-4">
                     <h4 className="font-headline text-lg font-semibold text-white">
                       {project.title}
                     </h4>
-                    <p className="mt-1 text-xs leading-snug text-gray-200">
+                    <p className="mt-1 text-xs leading-snug text-brand-100/80">
                       {project.description}
                     </p>
                   </div>
@@ -145,7 +147,7 @@ export default function Projects() {
               return project.private ? (
                 <div
                   key={index}
-                  className="group relative h-52 overflow-hidden rounded-lg shadow-lg"
+                  className="group relative h-52 overflow-hidden rounded-lg border-b-2 border-brand-400/60 shadow-lg"
                 >
                   {content}
                 </div>
@@ -155,7 +157,7 @@ export default function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="group relative block h-52 overflow-hidden rounded-lg shadow-lg"
+                  className="group relative block h-52 overflow-hidden rounded-lg border-b-2 border-brand-400/60 shadow-lg transition-colors hover:border-brand-400"
                 >
                   {content}
                 </a>

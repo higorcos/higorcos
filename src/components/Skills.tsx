@@ -100,39 +100,39 @@ export default function Skills() {
   ]
 
   return (
-    <section className="bg-gray-100">
+    <section className="bg-brand-950 text-brand-100">
       <div className="container mx-auto max-w-4xl px-4 py-20">
         <div className="mb-12 text-center">
           <h2 className="mb-2 font-bold">
-            <span className="mr-2 font-headline text-3xl text-gray-800">
+            <span className="mr-2 font-headline text-3xl text-white">
               Educação &
             </span>
-            <span className="font-handwriting text-4xl text-blue-800">
+            <span className="font-handwriting text-4xl text-brand-400">
               Skills
             </span>
           </h2>
-          <p className="text-sm text-gray-700">FullStack Developer</p>
+          <p className="text-sm text-brand-100/70">FullStack Developer</p>
         </div>
 
         <div className="flex flex-col gap-10 md:flex-row">
           <div className="basis-1/2">
-            <h3 className="mb-4 flex items-center gap-2 text-lg font-extrabold text-gray-700">
-              <HiAcademicCap className="h-8 w-8 text-blue-600" />
+            <h3 className="mb-4 flex items-center gap-2 text-lg font-extrabold text-white">
+              <HiAcademicCap className="h-8 w-8 text-brand-400" />
               Educação
             </h3>
 
             {educations.map((education, index) => (
               <div
                 key={`education-${index}`}
-                className="mb-2 rounded-lg bg-white p-4 text-sm font-semibold text-gray-900"
+                className="mb-2 rounded-lg border border-brand-400/20 bg-brand-800/20 p-4 text-sm font-semibold text-brand-100"
               >
                 {education.name}
               </div>
             ))}
           </div>
           <div className="basis-1/2">
-            <h3 className="mb-4 flex items-center gap-2 text-lg font-extrabold text-gray-700">
-              <HiCodeBracketSquare className="h-8 w-8 text-blue-600" />
+            <h3 className="mb-4 flex items-center gap-2 text-lg font-extrabold text-white">
+              <HiCodeBracketSquare className="h-8 w-8 text-brand-400" />
               Skills
             </h3>
 
@@ -141,7 +141,7 @@ export default function Skills() {
                 <div
                   key={`skill-${index}`}
                   title={skill.name}
-                  className="flex aspect-square items-center justify-center rounded-lg bg-white p-2 shadow-sm"
+                  className="flex aspect-square items-center justify-center rounded-lg border-b-2 border-brand-400 bg-brand-800/20 p-2 text-brand-400 shadow-sm transition hover:bg-brand-800/40"
                 >
                   {skill.icon}
                 </div>
