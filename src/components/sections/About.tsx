@@ -14,7 +14,7 @@ export default function About() {
             Sou desenvolvedor FullStack, formado em Ciência e Tecnologia pela
             UFMA e atualmente cursando Engenharia da Computação na mesma
             instituição. Construo sistemas web e APIs para o setor público e
-            para empresas — sempre com foco em performance, qualidade de
+            para empresas, sempre com foco em performance, qualidade de
             código e uma experiência que o usuário final realmente sente.
           </p>
         </Reveal>

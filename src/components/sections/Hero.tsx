@@ -37,7 +37,7 @@ export default function Hero() {
 
           <p className="mt-6 max-w-md text-brand-100/70">
             Sou Higor Costa, desenvolvedor FullStack em São Luís (MA).
-            Transformo problemas reais em produtos digitais — de portais
+            Transformo problemas reais em produtos digitais, de portais
             governamentais a plataformas SaaS.
           </p>
 
