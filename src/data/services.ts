@@ -33,7 +33,7 @@ export const services: Service[] = [
   },
   {
     title: "Portais Governamentais",
-    description: "Portais da transparência e sistemas para órgãos públicos, dentro da LAI.",
+    description: "Portais da transparência e sistemas para órgãos públicos",
     icon: Landmark,
   },
   {

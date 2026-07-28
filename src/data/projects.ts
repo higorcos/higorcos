@@ -27,7 +27,7 @@ export const featuredProjects: FeaturedProject[] = [
     title: "Maranhão Livre da Fome",
     tagline: "Sistema estadual de combate à insegurança alimentar",
     problem:
-      "A Secretaria de Estado da Saúde não tinha como rastrear, de forma nominal e territorializada, o cumprimento das condicionalidades de saúde das famílias participantes do programa — cada consulta e ficha nutricional ficava dispersa entre municípios.",
+      "A Secretaria de Estado da Saúde não tinha como rastrear, de forma nominal e territorializada, o cumprimento das condicionalidades de saúde das famílias participantes do programa, cada consulta e ficha nutricional ficava dispersa entre municípios.",
     solution:
       "Desenvolvi um sistema web que centraliza o cadastro de famílias, consultas e fichas nutricionais ao longo do tempo, com controle de acesso por papel (gestor municipal, estadual, profissional de saúde) e autenticação em duas etapas.",
     tech: ["PHP", "Laravel", "MySQL", "2FA"],
@@ -115,7 +115,7 @@ export const otherProjects: SimpleProject[] = [
   {
     title: "RELAB",
     description:
-      "Sistema de mapeamento da rede laboratorial do Maranhão — rastreia e credencia unidades pela capacidade de exames que realizam",
+      "Sistema de mapeamento da rede laboratorial do Maranhão, rastreia e credencia unidades pela capacidade de exames que realizam",
     image: "",
     link: "",
     private: true,
@@ -124,7 +124,7 @@ export const otherProjects: SimpleProject[] = [
 
 export const isabellaCase = {
   title: "Isabella da Hora",
-  tagline: "Case de design — Landing page premium",
+  tagline: "Case de design, Landing page premium",
   description:
     "Nem todo projeto é sobre sistemas complexos. Esse case mostra outro lado do trabalho: concepção visual, hierarquia de conteúdo e microinterações para uma landing page pessoal de jornalismo e social media.",
   highlights: ["Design & UX", "Responsividade", "Motion & micro-interações"],

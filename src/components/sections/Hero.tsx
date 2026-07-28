@@ -99,7 +99,7 @@ export default function Hero() {
             className="absolute -bottom-6 -right-4 rounded-xl border border-brand-400/20 bg-brand-950/80 px-4 py-2.5 text-sm shadow-lg backdrop-blur-md"
           >
             <span className="text-brand-200">3+ </span>
-            <span className="text-white">órgãos públicos</span>
+            <span className="text-white">Sistemas de governo e portais</span>
           </motion.div>
         </motion.div>
       </Container>
