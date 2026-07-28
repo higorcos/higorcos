@@ -34,7 +34,7 @@ export default function Nav() {
           href="#top"
           className="font-headline text-sm font-bold tracking-wide text-white"
         >
-          Higor<span className="text-brand-400">.dev</span>
+          Higor<span className="text-brand-400">.costa</span>
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
