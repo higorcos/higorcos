@@ -36,9 +36,8 @@ Fundador da [Kerodon](https://kerodon.dev.br), onde desenvolvo sistemas sob medi
 
 | Projeto | O que resolve | Stack |
 |---|---|---|
-| [Kerodon](https://kerodon.dev.br) | Site institucional da minha empresa de software | [stack do site] |
+| [Kerodon](https://kerodon.dev.br) | Site institucional da minha empresa de software | Next.js |
 | [Implementacao-api-pix](https://github.com/higorcos/Implementacao-api-pix) | [ex.: Integração com a API Pix para gerar cobranças e receber confirmações de pagamento] | Node.js |
-| [Projeto 3] | [O problema que ele resolve] | [Stack] |
 
 ---
 
