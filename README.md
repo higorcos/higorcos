@@ -43,7 +43,7 @@ Fundador da Kerodon, onde desenvolvo sistemas sob medida, automações e dashboa
 
 ## 💼 Experiência
 
-- **Secretaria de Estado da Saúde do Maranhão** · Desenvolvedor de Software · 2026–atual
+- **Secretaria de Estado da Saúde do Maranhão** · Desenvolvedor de Software · 2026–atual · sistemas internos com Laravel
 - **Kerodon** · Fundador e Desenvolvedor · 2024–atual
 - **Workcenter** · Desenvolvedor Full Stack · 2022–2024 · portais da transparência, microsserviços, Docker e AWS
 - **Xferatech** · Desenvolvedor de Software · 2024 · ambiente virtual de aprendizagem (Moodle) integrado a app mobile
