@@ -12,7 +12,7 @@ Fundador da Kerodon, onde desenvolvo sistemas sob medida, automações e dashboa
 
 ## 🔧 O que eu faço
 
-- **APIs e microsserviços** com Node.js e TypeScript, integrando sistemas diferentes
+- **APIs e microsserviços** com Node.js, TypeScript e Laravel, integrando sistemas diferentes
 - **Infraestrutura e deploy** com Docker, AWS e Nginx, incluindo configuração e monitoramento de servidores
 - **Aplicações web** com React e Next.js, do levantamento de requisitos ao ar
 <!-- - **IA aplicada a sistemas reais:** LLMs locais com Ollama, consultas em linguagem natural (text-to-SQL) e RAG sobre documentação
