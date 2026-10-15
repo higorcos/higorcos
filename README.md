@@ -1,76 +1,52 @@
-# Fala Dev, sou o Higor Costa! 👋
+# Olá, sou o Higor Costa 👋
 
-Sou Bacharel em Ciência e Tecnologia pela **UFMA** e atualmente curso **Engenharia da Computação** na mesma instituição.
+Desenvolvedor Full Stack com **mais de 4 anos** construindo sistemas que estão em produção no setor público, de portais da transparência para prefeituras e câmaras municipais a sistemas da Secretaria de Estado da Saúde do Maranhão.
 
-Tenho mais de dois anos de experiência como **desenvolvedor full stack**, atuando em projetos web com foco em performance, qualidade de código e boa experiência do usuário.
+Fundador da [Kerodon](https://kerodon.dev.br), onde desenvolvo sistemas sob medida, automações e dashboards para empresas.
 
-Ao longo da minha trajetória, participei de projetos acadêmicos e profissionais, desenvolvendo soluções escaláveis, APIs robustas e interfaces intuitivas utilizando tecnologias modernas como **JavaScript, TypeScript, Node.js, React** e outras ferramentas do ecossistema web.
+**Node.js · TypeScript · React · Next.js · PostgreSQL · Docker · AWS · Nginx**
 
-Tenho grande interesse em **arquitetura de software**, **APIs bem estruturadas**, **aplicações web responsivas** e boas práticas de desenvolvimento. Valorizo ambientes colaborativos, metodologias ágeis e o aprendizado contínuo como base para entregar valor real por meio da tecnologia.
-
-
-
-   
-
-
+🌐 [Portfólio](https://higorcosta.kerodon.dev.br) · 💼 [LinkedIn](https://www.linkedin.com/in/higor--costa) · 🏢 [Kerodon](https://kerodon.dev.br) · ✉️ [higorpinheirocosta@gmail.com](mailto:higorpinheirocosta@gmail.com)
 
 ---
 
-## 🚀 Tecnologias e Ferramentas
+## 🔧 O que eu faço
 
-<div align="left">
+- **APIs e microsserviços** com Node.js e TypeScript, integrando sistemas diferentes
+- **Infraestrutura e deploy** com Docker, AWS e Nginx, incluindo configuração e monitoramento de servidores
+- **Aplicações web** com React e Next.js, do levantamento de requisitos ao ar
+- **IA aplicada a sistemas reais:** LLMs locais com Ollama, consultas em linguagem natural (text-to-SQL) e RAG sobre documentação
 
-![JavaScript](https://img.shields.io/badge/JavaScript-111?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-111?style=for-the-badge&logo=typescript)
-![Node.js](https://img.shields.io/badge/Node.js-111?style=for-the-badge&logo=node.js)
-![React](https://img.shields.io/badge/React-111?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-111?style=for-the-badge&logo=next.js)
-![Express](https://img.shields.io/badge/Express-111?style=for-the-badge&logo=express)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111?style=for-the-badge&logo=postgresql)
-![MySQL](https://img.shields.io/badge/MySQL-111?style=for-the-badge&logo=mysql)
-![Docker](https://img.shields.io/badge/Docker-111?style=for-the-badge&logo=docker)
-![Git](https://img.shields.io/badge/Git-111?style=for-the-badge&logo=git)
+---
+<!--
+## 🚧 Construindo agora
 
-</div>
+
+**Assistente com IA para sistema interno.** Um chat que responde perguntas sobre dados e documentação de um sistema, usando um modelo local (Ollama) para que nenhum dado saia do servidor. Integra também dados do Google Analytics.
+
+`Node.js` `TypeScript` `Ollama` `Docker` `PostgreSQL`
+
+---
+-->
+
+## 📌 Projetos em destaque
+
+<!-- Troque os textos entre colchetes por descrições reais, de 1 linha cada.
+     Fixe no perfil os mesmos projetos listados aqui. -->
+
+| Projeto | O que resolve | Stack |
+|---|---|---|
+| [Kerodon](https://kerodon.dev.br) | Site institucional da minha empresa de software | [stack do site] |
+| [Implementacao-api-pix](https://github.com/higorcos/Implementacao-api-pix) | [ex.: Integração com a API Pix para gerar cobranças e receber confirmações de pagamento] | Node.js |
+| [Projeto 3] | [O problema que ele resolve] | [Stack] |
 
 ---
 
-## ⭐ GitHub Stats
+## 💼 Experiência
 
-<div align="center">
+- **Secretaria de Estado da Saúde do Maranhão** · Desenvolvedor de Software · 2026–atual
+- **Kerodon** · Fundador e Desenvolvedor · 2024–atual
+- **Workcenter** · Desenvolvedor Full Stack · 2022–2024 · portais da transparência, microsserviços, Docker e AWS
+- **Xferatech** · Desenvolvedor de Software · 2024 · ambiente virtual de aprendizagem (Moodle) integrado a app mobile
 
-<img 
-  src="https://github-readme-stats.vercel.app/api?username=higorcos&theme=dark&show_icons=true&hide_border=true&count_private=true&card_width=500" 
-  alt="Higor's GitHub Stats" 
-/>
-
-<br/>
-
-<img 
-  src="https://github-readme-streak-stats.herokuapp.com/?user=higorcos&theme=dark&hide_border=true&card_width=500" 
-  alt="Higor's GitHub Streak" 
-/>
-
-<br/>
-
-<img 
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=higorcos&theme=dark&show_icons=true&hide_border=true&layout=compact&card_width=500&langs_count=20&hide=HTML,EJS" 
-  alt="Higor's Top Languages" 
-/>
-
-</div>
-
-
-
----
-
-## 📫 Onde me encontrar
-
-<div align="left">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/higor--costa)
-[![Email](https://img.shields.io/badge/Email-111?style=for-the-badge&logo=gmail)](mailto:higorpinheirocosta@gmail.com)
-
-</div>
-
-
+🎓 Engenharia da Computação na UFMA
