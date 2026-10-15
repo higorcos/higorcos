@@ -4,7 +4,7 @@ Desenvolvedor Full Stack com **mais de 4 anos** construindo sistemas que estão 
 
 Fundador da [Kerodon](https://kerodon.dev.br), onde desenvolvo sistemas sob medida, automações e dashboards para empresas.
 
-**Node.js · TypeScript · React · Next.js · PostgreSQL · Docker · AWS · Nginx**
+**Node.js · TypeScript · Next.js · PHP · Laravel PostgreSQL · Docker · AWS · Nginx**
 
 🌐 [Portfólio](https://higorcosta.kerodon.dev.br) · 💼 [LinkedIn](https://www.linkedin.com/in/higor--costa) · 🏢 [Kerodon](https://kerodon.dev.br) · ✉️ [higorpinheirocosta@gmail.com](mailto:higorpinheirocosta@gmail.com)
 
