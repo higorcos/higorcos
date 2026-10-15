@@ -2,7 +2,7 @@
 
 Desenvolvedor Full Stack com **mais de 4 anos** construindo sistemas que estão em produção no setor público, de portais da transparência para prefeituras e câmaras municipais a sistemas da Secretaria de Estado da Saúde do Maranhão.
 
-Fundador da [Kerodon](https://kerodon.dev.br), onde desenvolvo sistemas sob medida, automações e dashboards para empresas.
+Fundador da Kerodon, onde desenvolvo sistemas sob medida, automações e dashboards para empresas.
 
 **Node.js · TypeScript · Next.js · PHP · Laravel PostgreSQL · Docker · AWS · Nginx**
 
