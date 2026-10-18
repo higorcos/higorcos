@@ -31,13 +31,13 @@ Fundador da Kerodon, onde desenvolvo sistemas sob medida, automações e dashboa
 
 ## 📌 Projetos em destaque
 
-<!-- Troque os textos entre colchetes por descrições reais, de 1 linha cada.
-     Fixe no perfil os mesmos projetos listados aqui. -->
-
 | Projeto | O que resolve | Stack |
 |---|---|---|
-| [Kerodon](https://kerodon.dev.br) | Site institucional da minha empresa de software | Next.js |
-| [Implementacao-api-pix](https://github.com/higorcos/Implementacao-api-pix) | [ex.: Integração com a API Pix para gerar cobranças e receber confirmações de pagamento] | Node.js |
+| [api-recarga-pix-ru](https://github.com/higorcos/api-recarga-pix-ru) | Recarga do cartão do Restaurante Universitário da UFMA via Pix (meu TCC): cobrança na Efí, confirmação do pagamento pelo webhook e crédito sem duplicidade | Node.js · Express · PostgreSQL · Next.js |
+| [radar-imperatriz](https://github.com/higorcos/radar-imperatriz) | Central de apoio jornalístico para Imperatriz (MA): coleta de notícias, organização de pautas e rascunhos gerados por IA, sempre marcados como sugestão | Next.js · TypeScript · PostgreSQL · Claude API |
+| [filashps](https://github.com/higorcos/filashps) | Gerenciamento de filas em unidades de saúde: triagem com prioridade automática, painel do profissional e telão com chamada por voz | Next.js · TypeScript · Prisma |
+| [clean_architecture](https://github.com/higorcos/clean_architecture) | Estudo de Clean Architecture e TDD: API em camadas com as regras de negócio isoladas de framework e banco | Node.js · TypeScript · Jest |
+| [Kerodon](https://kerodon.dev.br) | Site da minha empresa de software sob medida | HTML · CSS · JavaScript |
 
 ---
 
